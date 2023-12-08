@@ -6,8 +6,8 @@ import {
   PaperProvider,
   MD3LightTheme as DefaultTheme,
 } from "react-native-paper";
-import colors from "./src/config/colors";
-import NavigationStack from "./src/components/navigation/NavigationStack";
+import colors from "./config/colors";
+import NavigationStack from "./navigation/NavigationStack";
 
 export default function App() {
   const theme = {
